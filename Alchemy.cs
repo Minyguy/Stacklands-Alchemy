@@ -1,9 +1,9 @@
 using BepInEx;
 using BerryLoaderNS;
 
-namespace MakeFlint
+namespace Alchemy
 {
-	[BepInPlugin("MakeFlint", "Make Flint", "1.0.0")]
+	[BepInPlugin("Alchemy", "Alchemy", "0.0.1")]
 	[BepInDependency("BerryLoader")]
 	class Plugin : BaseUnityPlugin
 	{
@@ -12,7 +12,7 @@ namespace MakeFlint
 		private void Awake()
 		{
 			L = Logger;
-			L.LogInfo("hello from MakeFlint.Plugin.Awake");
+			L.LogInfo("hello from Alchemy.Plugin.Awake");
 		}
 	}
 }

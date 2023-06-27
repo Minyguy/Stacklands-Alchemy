@@ -1,0 +1,8 @@
+{
+	"id": "alchemy_cauldron",
+    "nameOverride": "Cauldron",
+    "descriptionOverride": "Used to make magical potions!",
+	"value": 20,
+	"type": "Structures",
+	"icon": "cauldron.png"
+}

@@ -1,0 +1,20 @@
+{
+	"id": "blueprint_alchemy_cauldron",
+    "nameOverride": "Idea: Cauldron",
+	"group": "Building",
+	"icon": "cauldron.png",
+	"hideFromIdeasTab": false,
+	"hideFromCardopedia": false,
+	"isInvention": true,
+	"needsExactMatch": true,
+	"subprints": [
+		{
+			"RequiredCards": "any_villager, IronBar, IronBar, IronBar, IronBar, IronBar, BottleOfWater",
+			"CardsToRemove": "IronBar, IronBar, IronBar, IronBar, IronBar, BottleOfWater",
+			"ResultCard": "cauldron",
+			"extraResultCards": "",
+			"Time": 25,
+            "statusOverride": "Making a Cauldron"
+		}
+	]
+}
