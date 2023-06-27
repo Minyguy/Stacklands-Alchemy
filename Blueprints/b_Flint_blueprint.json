@@ -1,9 +1,8 @@
 {
 	"id": "xxxblueprint__MakeFlint",
-	"nameTerm": "blueprint_make_flint",
     "nameOverride": "Idea: Flint",
 	"group": "Resources",
-	"icon": "MakeFlintIcon.png",
+	"icon": "Icon.png",
 	"hideFromIdeasTab": false,
 	"hideFromCardopedia": false,
 	"isInvention": false,
@@ -14,7 +13,6 @@
 			"CardsToRemove": "stone",
 			"ResultCard": "flint",
 			"Time": 10,
-            "statusTerm": "mf_crafting_flint",
             "statusOverride": "Breaking Stone"
 		}
 	]
