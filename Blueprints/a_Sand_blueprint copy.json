@@ -1,0 +1,22 @@
+{
+	"id": "blueprint__MakeSand",
+	"nameTerm": "blueprint_make_sand",
+    "nameOverride": "Idea: Sand",
+	"group": "Resources",
+	"icon": "MakeFlintIcon.png",
+	"hideFromIdeasTab": false,
+	"hideFromCardopedia": false,
+	"isInvention": false,
+	"needsExactMatch": true,
+	"subprints": [
+		{
+			"RequiredCards": "any_villager, sandstone",
+			"CardsToRemove": "sandstone",
+			"ResultCard": "",
+			"extraResultCards": "sand, sand",
+			"Time": 5,
+            "statusTerm": "mf_crafting_flint",
+            "statusOverride": "Breaking Sandstone?"
+		}
+	]
+}
