@@ -9,9 +9,9 @@
 	"needsExactMatch": true,
 	"subprints": [
 		{
-			"RequiredCards": "any_villager, IronBar, IronBar, IronBar, IronBar, IronBar, BottleOfWater",
-			"CardsToRemove": "IronBar, IronBar, IronBar, IronBar, IronBar, BottleOfWater",
-			"ResultCard": "cauldron",
+			"RequiredCards": "any_villager, iron_bar, iron_bar, iron_bar, iron_bar, iron_bar, bottle_of_water",
+			"CardsToRemove": "iron_bar, iron_bar, iron_bar, iron_bar, iron_bar, bottle_of_water",
+			"ResultCard": "alchemy_cauldron",
 			"extraResultCards": "",
 			"Time": 25,
             "statusOverride": "Making a Cauldron"
