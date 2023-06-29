@@ -4,5 +4,7 @@
     "descriptionOverride": "Used to make magical potions!",
 	"value": 20,
 	"type": "Structures",
-	"icon": "cauldron.png"
+	"icon": "cauldron.png",
+	"__IsBuilding": true,
+	"script": "Stacklands.CardData"
 }
